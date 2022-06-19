@@ -31,14 +31,14 @@ plt.title('Force Spectroscopy')
 plt.ylabel('Vertical Deflection')
 plt.xlabel('Measured Height')
 plt.style.use(['dark_background'])
-
-
 plt.plot(xdata,ydata, color='green',label=('Experimental data'))
 
 #Theoritical Plot
 new= -(0.107e-5)*xdata
 plt.plot(xdata,new, color= 'purple',label='Theoritical')
-plt.legend('upper right' ,fontsize=20)
+
+#Legend Modification
+plt.legend('upper right',fontsize=20)
 plt.legend()
 
     
